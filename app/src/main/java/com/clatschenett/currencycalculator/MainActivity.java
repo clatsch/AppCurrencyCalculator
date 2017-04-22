@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn_compute = (Button) findViewById(R.id.button);
         final EditText edit_input1 = (EditText) (findViewById(R.id.input1));
-        final TextView edit_input2 = (TextView) (findViewById(R.id.input2));
+        final EditText edit_input2 = (EditText) (findViewById(R.id.input2));
 
         btn_compute.setOnClickListener(new View.OnClickListener() {
 
